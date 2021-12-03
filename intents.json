@@ -1,26 +1,26 @@
 {"intents": [
 {"tag": "greeting",
-"patterns": ["Hi","Hey","Hola", "Hello", "Good day"],
+"patterns": ["Hi","Hey","Hola", "Hello", "Good day", "Yo", "What's up", "Waddup", "How are you", "Eyo", "Goodday", "Heyo", "Good morning", "Good Afternoon", "How are things", "Good evening"],
 "responses": ["Hello, how can I help you?","Hi there, how can I help?"],
  "context": [""]
 },
 {"tag": "goodbye",
- "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
- "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+ "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Bye bye", "Hasta Lavista", "Thank you" ],
+ "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "I miss you already!", "Have a great day!"],
  "context": [""]
 },
 {"tag": "noanswer",
  "patterns": [],
- "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+ "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I didn't quite get that. Can you repeat?"],
  "context": [""]
 },
 {"tag": "options",
- "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+ "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What's your purpose", "What do you do", "What's the deal here", "Why do you exist", "What is the reason of this", "I want to get to know you better", "Who are you"],
  "responses": ["I can guide you through the University from a room or building to another room or building."],
  "context": [""]
 },
 {"tag": "help_route",
- "patterns": ["Show me the way", "Find my building", "Find my room", "Locate building", "Search for room" ],
+ "patterns": ["Show me the way", "Find my building", "Find my room", "Locate building", "Search for room", "Where do I go", "I can't find my way", "I am lost", "Help", "Please help me", "Where is my building", "Whee should I go", "What is the way" ],
  "responses": ["Please provide your current location by building name"],
  "context": ["set_curr_loc"]
 },
