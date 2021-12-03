@@ -1,0 +1,270 @@
+{"intents": [
+{"tag": "greeting",
+"patterns": ["Hi","Hey","Hoi", "Hallo", "Goeie dag", "Yo", "Hay", "Goede dag", "Goeie morgen", "Goeie middag", "Goeie avond", "Goede morgen", "Goede middag", "Goede avond", "Gegroet"],
+"responses": ["Hallo, hoe kan ik u helpen","Hey, hoe kan ik helpen?"],
+ "context": [""]
+},
+{"tag": "goodbye",
+ "patterns": ["Dag", "Doei", "Later", "Tot ziens", "Zie je volgende keer", "Tot snel", "Dag!", "Doei!", "Later!", "Tot ziens!", "Zie je volgende keer!", "Tot snel!"],
+ "responses": ["Tot ziens!", "Tot de volgende keer!", "Tot snel!", "Fijne dag nog!"],
+ "context": [""]
+},
+{"tag": "noanswer",
+ "patterns": [],
+ "responses": ["Sorry, ik snap niet wat u daar mee bedoelt", "Geef meer informatie alsjeblieft", "Ik denk niet dat ik snap wat u bedoelt"],
+ "context": [""]
+},
+{"tag": "options",
+ "patterns": ["Hoe kan je mij helpen?", "Wat kan je voor mij doen?", "Wat voor hulp biedt u aan?", "Hoe kan je van hulp zijn?"],
+ "responses": ["Ik kan je de weg van en naar elk gebouw wijzen over de hele campus!"],
+ "context": [""]
+},
+{"tag": "ask_location",
+ "patterns": ["Laat mij de weg zien", "Vind mijn gebouw", "Vind mijn klaslokaal", "Vind mijn lokaal", "vind mijn collegezaal", "Help mij om naar mijn bestemming te komen", "", "Help mij naar mijn college", "leid mij naar mijn collegezaal"],
+ "responses": ["Okay, welk gebouw zie je nu of ben je net uit gekomen en naar welk gebouw wil je graag toe? In het formaat __naar__. Belanrijk! De uitleg is vanuit het perspectief alsof je net uit het gebouw bent gekomen."],
+ "context": [""]
+},
+
+
+
+
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar C", "Academia naar Cobbenhagen", "A naar Cobbenhagen", "Academia naar C"],
+ "responses": ["Om van het Academia (A) gebouw naar het Cobbenhagen (C) gebouw te gaan moet je eerst naar links, dan een stuk rechtdoor lopen helemaal naar de andere kant van de campus voorbij de brug (van de bibliotheek). Ga hierna naar links voor ongeveer 50 meter en in get K gebouw, loop ongeveer 10 meter rechtdoor en ga door de lange gang. Je hebt je bestemming bereikt, was dit behulpzaam?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar Cube", "Academia naar Cube"],
+ "responses": ["Om van het Academia gebouw naar het Cube gebouw te gaan moet je eerst naar links, dan een stuk rechtdoor lopen tot je bent overgestoken en langs de paaltjes. Aan je linker kant zie je het D gebouw, blijf doorlopen tot je voorbij dit gebouw bent en ga daarna na 20 meter naar rechts. Loop over dit pad totdat je alle gebouwen aan je rechterkant voorbij bent. Loop nu naar links en je hebt je bestemming bereikt! Was dit behulpzaam?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar K", "Academia naar Koopmans", "A naar Koopmans", "Academia naar K"],
+ "responses": ["Om van het Academia (A) gebouw naar het Koopmans (K) gebouw te gaan moet je eerst naar links, dan een stuk rechtdoor lopen helemaal naar de andere kant van de campus voorbij de brug (van de bibliotheek). Ga hierna naar links voor ongeveer 50 meter. Je hebt je bestemming bereikt. Was dit behulpzaam?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar D", "Academia naar Dante", "A naar Dante", "Academia naar D"],
+ "responses": ["Om van het Academia gebouw naar het Dante (D) gebouw te gaan moet je eerst naar links, dan een stuk rechtdoor lopen tot je bent overgestoken en langs de paaltjes. Aan je linker kant zie je het D gebouw en de ingang is aan de rechter kant als je naar het gebouw kijkt. Je hebt je bestemming bereikt. Was dit behulpzaam?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar Library", "Academia naar Library", "A naar L", "Academia naar L", "Academia naar UB", "Academia naar Universiteits Bibliotheek", "Academia naar University Library", "Academia naar UL", "A naar UL"],
+ "responses": ["Om van het Academia (A) gebouw naar de Bibliotheek te gaan moet je eerst naar links, dan een stuk rechtdoor lopen helemaal naar de andere kant van de campus tot je onder de brug heen bent. Deze brug leidt naar de Bibliotheek en het begin van de trap is aan de linker kant. Je hebt je bestemming bereikt. Was dit behulpzaam?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_A",
+ "patterns": ["A naar T", "Academia naar Tias", "A naar Tias", "Academia naar T"],
+ "responses": ["To get from the Academia (A) building to the Tias (T) building, you need go left and walk straight until you cross the road and passed the row of poles. On your left you see building D, keep walking straight until you have passed building D, then after about 20 meters, take the path on your right and keep walking on that path. The first building on your right is the T building. You have reached your destination! Was this helpful?"],
+ "responses": ["Om van het Academia gebouw naar het Tias (T) gebouw te gaan moet je eerst naar links, dan een stuk rechtdoor lopen tot je bent overgestoken en langs de paaltjes. Aan je linker kant zie je het D gebouw, blijf doorlopen tot je voorbij dit gebouw bent en ga daarna na 20 meter naar rechts. Loop over dit pad totdat je aan de rechter kant het T gebouw ziet. Je hebt je bestemming bereikt! Was dit behulpzaam?"],
+ "context": [""]
+},
+
+
+
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar A", "Dante naar Academia", "Dante naar A", "D naar Academia"],
+ "responses": ["Om van het Dante (D)-gebouw naar het Academia (A)-gebouw te komen, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt, dan weer rechts en rechtdoor lopen tot je de straat oversteekt en rechtdoor over het hoofdpad gaan. wandelpad (dus niet op straat). U passeert eerst het S-gebouw, dan het M-gebouw en dan komt u bij het A-gebouw. De ingang is aan de rechterkant! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar Cube", "Dante naar Cube"],
+ "responses": ["Om van het Dante (D)-gebouw naar het Cube-gebouw te komen, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt, ongeveer 20 meter naar links gaan, dan rechtsaf en op dat pad blijven lopen tot je bent alle universiteitsgebouwen aan je rechterkant gepasseerd en slaat linksaf. Na een paar meter heb je je bestemming bereikt! Was dit nuttig?"
+],
+ "context": [""]
+},
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar K", "Dante naar Koopmans", "Dante naar K", "D naar Koopmans"],
+ "responses": ["Om van het Dante (D)-gebouw naar het Koopmans (K)-gebouw te komen, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt, dan links en rechtdoor lopen tot je onder een brug door gaat (Uni Library) , ga dan naar links en loop ongeveer 50 meter rechtdoor. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar C", "Dante naar Cobbenhagen", "Dante naar C", "D naar Cobbenhagen"],
+ "responses": ["Om van het Dante (D)-gebouw naar het Cobbenhagen (C)-gebouw te komen, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt, dan links en rechtdoor lopen tot je onder een brug door gaat (Uni Library), ga dan ongeveer 50 meter naar links en gebouw K in en ga rechtdoor door de gang met een helling. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar Library", "Dante naar Library", "D naar L", "Dante naar L", "Dante naar UB", "Dante naar Universiteits Bibliotheek", "Dante naar University Library", "Dante naar UL", "D naar UL"],
+ "responses": ["Om van het Dante (D)-gebouw naar de bibliotheek te gaan, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt, dan linksaf en rechtdoor lopen tot je onder een brug doorgaat, deze brug is de manier om de bibliotheek, om op de brug te komen, ga je links nadat je deze bent gepasseerd en je moet de trap bereiken. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_D",
+ "patterns": ["D naar T", "Dante naar Tias", "Dante naar T", "D naar Tias"],
+ "responses": ["Om van het Dante (D)-gebouw naar het Tias (T)-gebouw te komen, moet je het gebouw verlaten en rechtsaf gaan tot je bij het hoofdpad komt en ongeveer 20 meter naar links gaan en dan rechtsaf. Loop rechtdoor dit pad, het eerste gebouw aan je rechterkant is het T-gebouw. ​​Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+
+
+
+
+
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar A", "Cobbenhagen naar Academia", "Cobbenhagen naar A", "C naar Academia"],
+ "responses": ["De gemakkelijkste route van gebouw Cobbenhagen (C) naar waar dan ook is als je via het Koopmans (K)-gebouw naar buiten gaat en vervolgens weer 'K naar __' typt. Als je C-gebouw via de achterkant (niet via K) bent binnengegaan, moet je gaan vanaf die ingang en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar K", "Cobbenhagen naar Koopmans", "Cobbenhagen naar K", "C naar Koopmans"],
+ "responses": ["Als je C gebouw via de achterkant bent binnengegaan (niet via de K ingang) moet je vanaf die achteringang gaan en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar T", "Cobbenhagen naar Tias", "Cobbenhagen naar T", "C naar Tias"],
+ "responses": ["De gemakkelijkste route van gebouw Cobbenhagen (C) naar waar dan ook is als je via het Koopmans (K)-gebouw naar buiten gaat en vervolgens weer 'K naar __' typt. Als je C-gebouw via de achterkant (niet via K) bent binnengegaan, moet je gaan vanaf die ingang en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar D", "Cobbenhagen naar Dante", "Cobbenhagen naar D", "C naar Dante"],
+ "responses": ["De gemakkelijkste route van gebouw Cobbenhagen (C) naar waar dan ook is als je via het Koopmans (K)-gebouw naar buiten gaat en vervolgens weer 'K naar __' typt. Als je C-gebouw via de achterkant (niet via K) bent binnengegaan, moet je gaan vanaf die ingang en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar Cube", "Cobbenhagen naar Cube"],
+ "responses": ["De gemakkelijkste route van gebouw Cobbenhagen (C) naar waar dan ook is als je via het Koopmans (K)-gebouw naar buiten gaat en vervolgens weer 'K naar __' typt. Als je C-gebouw via de achterkant (niet via K) bent binnengegaan, moet je gaan vanaf die ingang en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+{"tag": "give_direction_from_C",
+ "patterns": ["C naar Library", "Cobbenhagen naar Library", "Cobbenhagen naar L", "C naar L", "C naar UB", "Cobbenhagen naar Universiteits Bibliotheek", "C naar UL", "Cobbenhagen naar University Library", "C naar University Library", "Cobbenhagen naar UL"],
+ "responses": ["De gemakkelijkste route van gebouw Cobbenhagen (C) naar waar dan ook is als je via het Koopmans (K)-gebouw naar buiten gaat en vervolgens weer 'K naar __' typt. Als je C-gebouw via de achterkant (niet via K) bent binnengegaan, moet je gaan vanaf die ingang en dan eerst links -> rechts -> eerste links -> eerste rechts."],
+ "context": [""]
+},
+
+
+
+
+
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar A", "Koopmans naar Academia", "Koopmans naar A", "K naar Academia"],
+ "responses": ["Om van het Koopmans (K)-gebouw naar het Academia (A)-gebouw te komen, moet je rechtdoor en rechtsaf om onder de bibliotheekbrug door te gaan. Ga dan helemaal rechtdoor over de campus (dus ook de straat oversteken) en blijf op het trottoir. U moet gebouw S en M aan uw rechterhand passeren en het volgende gebouw is gebouw A. U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar Cube", "Koopmans naar Cube"],
+ "responses": ["Om van het Koopmans (K)gebouw naar het Kubusgebouw te komen moet je rechtdoor en het W-gebouw aan je linkerhand passeren tot je bij een grindpad komt dat schuin door een grasveld gaat. Volg dit pad tot het einde en neem een brede bocht naar links en ga rechtdoor met fietsenstallingen aan je rechterkant. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar T", "Koopmans naar Tias", "Koopmans naar T", "K naar Tias"],
+ "responses": ["Om van het Koopmans (K)-gebouw naar het Tias (T)-gebouw te gaan, moet je rechtdoor gaan en het W-gebouw aan je linkerhand passeren tot je op een grindpad komt dat schuin door een grasveld gaat. Volg dit pad tot aan de einde en neem dan een kleine bocht naar rechts en ga rechtdoor. U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar Library", "Koopmans naar Library", "Koopmans naar L", "K naar L", "K naar UB", "Koopmans naar UB", "K naar UL", "Koopmans naar University Library", "Koopmans naar Universiteits Bibliotheek"],
+ "responses": ["Om van het Koopmans (K)-gebouw naar de Bibliotheek te gaan, gaat u ongeveer 50 meter rechtdoor tot u aan uw rechterhand de brug en de trappen ziet. Neem deze trappen naar de Bibliotheek. U bent op uw bestemming aangekomen! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar C", "Koopmans naar Cobbenhagen", "Koopmans naar C", "K naar Cobbenhagen"],
+ "responses": ["Om van het Koopmans (K)-gebouw naar het Cobbenhagen (C)-gebouw te komen, ga je gewoon door de lange gang die K en C verbindt. Als je C via K binnenkomt, ga je ongeveer 10 meter rechtdoor en kom je in die gang. hebben uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_K",
+ "patterns": ["K naar D", "Koopmans naar Dante", "Koopmans naar D", "K naar Dante"],
+ "responses": ["Om van het Koopmans (K)-gebouw naar het Dante (D)-gebouw te gaan, gaat u ongeveer 50 meter rechtdoor, vervolgens slaat u rechtsaf om onder de brug door te gaan (vanaf de bibliotheek). Ga rechtdoor en het eerste dichtstbijzijnde gebouw aan uw rechterhand kant is gebouw D. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+
+
+
+
+
+
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar Tias", "Cube naar Tias"],
+ "responses": ["Om van het Cube-gebouw naar het Tias (T)-gebouw te gaan, hoef je alleen maar naar rechts te gaan en het zou aan je linkerkant moeten zijn. Zo eenvoudig is het! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar Library", "Cube naar L", "Cube naar University Library", "Cube naar UL", "Cube naar UB", "Cube naar Universiteits Bibliotheek"],
+ "responses": ["Om van het Kubusgebouw naar de Bibliotheek te gaan moet je rechtsaf en dan een hele tijd rechtdoor (je passeert gebouw T aan je rechterhand) tot je bij het hoofdpad komt. Ga dan linksaf en ga onder de brug door. Deze brug leidt naar de bibliotheek en de trap begint aan uw linkerhand. U bent op uw bestemming aangekomen! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar K", "Cube naar Koopmans"],
+ "responses": ["Om van het Cube-gebouw naar het Koopmans (K)-gebouw te komen, moet je bij het verlaten van Cube direct rechtsaf en langs de fietsenstallingen lopen. Neem de eerste straat rechts, dan links en loop helemaal rechtdoor tot je bij het K-gebouw komt. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar C", "Cube naar Cobbenhagen"],
+ "responses": ["Om van het Cube-gebouw naar het Cobbenhagen (C)-gebouw te komen, moet je direct rechts gaan als je de kubus verlaat en langs de fietsenstallingen loopt. Neem de eerste straat rechts, dan links en loop helemaal rechtdoor tot je bij het K-gebouw komt. Ga het K-gebouw binnen en loop ongeveer 10 meter rechtdoor de lange gang in. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar D", "Cube naar Dante"],
+ "responses": ["Om van het Cube-gebouw naar het Dante (D)-gebouw te komen, moet je rechtsaf en ongeveer 80 meter rechtdoor lopen (je passeert het T-gebouw) tot je het hoofdpad bereikt. ingang van gebouw D. U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Cube",
+ "patterns": ["Cube naar A", "Cube naar Academia"],
+ "responses": ["Om van het Cube-gebouw naar het Academia (A)-gebouw te komen, moet je naar rechts gaan en ongeveer 80 meter rechtdoor lopen (je passeert het T-gebouw) tot je het hoofdpad bereikt. Ga vanaf daar links en loop helemaal door rechtdoor via het trottoir naar gebouw A. Het is aan uw rechterkant en u passeert eerst de S en M gebouwen. U bent op uw bestemming aangekomen! Was dit nuttig?"],
+ "context": [""]
+},
+
+
+
+
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar Cube", "Tias naar Cube"],
+ "responses": ["Om van het Tias (T)-gebouw naar het Kubusgebouw te gaan, ga je gewoon naar rechts en het kubusgebouw bevindt zich aan je linkerhand. Zo eenvoudig is het! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar Library", "Tias naar Library", "Tias naar L", "T naar L", "T naar UB", "Tias naar UB", "T naar UL", "Tias naar University Library", "Tias naar Universiteits Bibliotheek"],
+ "responses": ["Om van het Tias (T)-gebouw naar de bibliotheek te gaan, gaat u helemaal naar links naar het hoofdpad, vervolgens naar rechts en onder de brug door. Deze brug leidt naar de bibliotheek, het begin van deze brug is aan uw linkerhand. U hebben uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar K", "Tias naar Koopmans", "T naar Koopmans", "Tias naar K"],
+ "responses": ["Om van het Tias (T)-gebouw naar het Koopmans (K)-gebouw te komen, moet je helemaal links naar het hoofdpad, dan rechts en onder de brug door. Ga ongeveer 50 meter naar links en je bent bij K gebouw. ​​U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar C", "Tias naar Cobbenhagen", "T naar Cobbenhagen", "Tias naar C"],
+ "responses": ["Om van het Tias (T)-gebouw naar het Cobbenhagen (C)-gebouw te komen, moet je helemaal links naar het hoofdpad gaan, dan rechts en onder de brug door. Ga ongeveer 50 meter naar links en je bent bij K gebouw, ga dan het K-gebouw binnen en ga ongeveer 10 meter vooruit en ga door de lange gang. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar D", "Tias naar Dante", "T naar Dante", "Tias naar D"],
+ "responses": ["Om van het Tias (T)-gebouw naar het Dante (D)-gebouw te gaan, ga je helemaal naar links naar het hoofdpad en het D-gebouw ligt iets naar links voor je. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_T",
+ "patterns": ["T naar A", "Tias naar Academia", "T naar Academia", "Tias naar A"],
+ "responses": ["Om van het Tias (T)-gebouw naar het Academia-gebouw te gaan, ga je helemaal naar links naar het hoofdpad en ga je naar links. Loop rechtdoor en steek de weg over, ga dan rechtdoor op het trottoir. Het A-gebouw bevindt zich aan de rechterkant kant nadat u zowel het S- als het M-gebouw bent gepasseerd. U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+
+
+
+
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar K", "L naar K", "UL naar K", "UB naar K", "University Library naar K", "Universiteits Bibliotheek naar K", "Library naar Koopmans", "L naar Koopmans", "UL naar Koopmans", "UB naar Koopmans", "University Library naar Koopmans", "Universiteits Bibliotheek naar Koopmans"],
+ "responses": ["Om van de Bibliotheek naar het Koopmans (K)-gebouw te komen, ga je na het verlaten van de trap ongeveer 40 meter naar links en je bent bij het K-gebouw. ​​Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar C", "L naar C", "UL naar C", "UB naar C", "University Library naar C", "Universiteits Bibliotheek naar C", "Library naar Cobbenhagen ", "L naar Cobbenhagen", "UL naar Cobbenhagen", "UB naar Cobbenhagen", "University Library naar Cobbenhagen", "Universiteits Bibliotheek naar Cobbenhagen"],
+ "responses": ["Om van de bibliotheek naar het Cobbenhagen (C)-gebouw te komen, ga je na het verlaten van de trap ongeveer 40 meter naar links en je bent bij het K-gebouw. ​​Ga naar binnen en dan ongeveer 10 meter rechtdoor en ga door de lange gang. Je hebt je bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar T", "L naar T", "UL naar T", "UB naar T", "University Library naar T", "Universiteits Bibliotheek naar T", "Library naar Tias", "L naar Tias", "UL naar Tias", "UB naar Tias", "University Library naar Tias", "Universiteits Bibliotheek naar Tias"],
+ "responses": ["Om van de Bibliotheek naar het Tias (T)-gebouw te komen, ga je nadat je van de trap bent afgegaan rechtsaf en meteen weer rechts. De bibliotheek bevindt zich nu aan je linkerkant, als je er eenmaal voorbij bent, ga je links. Loop dit pad voor ongeveer 50 meter, het eerste gebouw aan de rechterkant is het T-gebouw. ​​U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar D", "L naar D", "UL naar D", "UB naar D", "University Library naar D", "Universiteits Bibliotheek naar D", "Library naar Dante", "L naar Dante", "UL naar Dante", "UB naar Dante", "University Library naar Dante", "Universiteits Bibliotheek naar Dante"],
+ "responses": ["Om van de bibliotheek naar het Dante (D)-gebouw te komen, gaat u nadat u de trap af bent gegaan naar rechts en vervolgens meteen weer naar rechts. Ga ongeveer 40 meter rechtdoor en het eerste gebouw dat dichtbij uw rechterhand is, is het Dante-gebouw. ​​U hebben uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar A", "L naar A", "UL naar A", "UB naar A", "University Library naar A", "Universiteits Bibliotheek naar A", "Library naar Academia", "L naar Academia", "UL naar Academia", "UB naar Academia", "University Library naar Academia", "Universiteits Bibliotheek naar Academia"],
+ "responses": ["Om van de bibliotheek naar het Academia (A)-gebouw te komen, gaat u nadat u de trap af bent gegaan naar rechts en vervolgens meteen weer naar rechts. Ga rechtdoor tot u de weg bereikt en steek deze over. Blijf rechtdoor lopen op het trottoir en het A-gebouw is aan uw rechterhand nadat u zowel het S- als het M-gebouw bent gepasseerd. U hebt uw bestemming bereikt! Was dit nuttig?"],
+ "context": [""]
+},
+{"tag": "give_direction_from_Library",
+ "patterns": ["Library naar cube", "L naar cube", "UL naar cube", "UB naar cube", "University Library naar cube", "Universiteits Bibliotheek naar cube"],
+ "responses": ["Om van de Bibliotheek naar het Kubusgebouw te komen, ga je nadat je de trap af bent gegaan rechts en dan meteen weer rechts. De bibliotheek bevindt zich nu aan je linkerkant, als je er voorbij bent ga je links. Loop dit pad ongeveer 100 meter , en het Cube-gebouw bevindt zich aan uw linkerhand. U bent op uw bestemming aangekomen! Was dit nuttig?"],
+ "context": [""]
+}
+]}
