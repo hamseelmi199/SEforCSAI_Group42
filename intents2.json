@@ -28,32 +28,32 @@
 
 
 
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_C",
  "patterns": ["A to C", "Academia to Cobbenhagen", "A to Cobbenhagen", "Academia to C"],
  "responses": ["To get from the Academia (A) building to the Cobbenhagen (C) building, you need to go left and walk straight all the way across campus until you pass under a bridge (Uni Library), then go left for about 50 meters and into building K and go straight trough the hallway with an incline. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_Cube",
  "patterns": ["A to Cube", "Academia to Cube"],
  "responses": ["To get from the Academia (A) building to the Cube building, you need to go left and walk straight until you cross the road and passed the row of poles. On your left you see building D, keep walking straight until you have passed building D, then after about 20 meters, take the path on your right and keep walking on that path until you have passed all the university buildings on your right side and take a left turn. After a couple of meters you have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_K",
  "patterns": ["A to K", "Academia to Koopmans", "A to Koopmans", "Academia to K"],
  "responses": ["To get from the Academia (A) building to the Koopmans (K) building, you need to go left and walk straight all the way across campus until you pass under a bridge (Uni Library), then go left walk straight for about 50 meters. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_D",
  "patterns": ["A to D", "Academia to Dante", "A to Dante", "Academia to D"],
  "responses": ["To get from the Academia (A) building to the Dante (D) building, you need to fgo left and walk straight until you cross the road and passed the row of poles. The D building is on your left and the entrance is at the end from where you are standing now. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_Library",
  "patterns": ["A to Library", "Academia to Library", "A to L", "Academia to L", "Academia to UB", "Academia to Universiteits Bibliotheek", "Academia to University Library", "Academia to UL", "A to UL"],
  "responses": ["To get from the Academia (A) building to the Library, you need to go left and walk straight all the way across campus until you pass under a bridge, this bridge is the way to the library, to get on the bridge go left after you passed it and you should reach the stairs. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_A",
+{"tag": "give_direction_from_A_to_T",
  "patterns": ["A to T", "Academia to Tias", "A to Tias", "Academia to T"],
  "responses": ["To get from the Academia (A) building to the Tias (T) building, you need go left and walk straight until you cross the road and passed the row of poles. On your left you see building D, keep walking straight until you have passed building D, then after about 20 meters, take the path on your right and keep walking on that path. The first building on your right is the T building. You have reached your destination! Was this helpful?"],
  "context": [""]
@@ -61,32 +61,32 @@
 
 
 
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_A",
  "patterns": ["D to A", "Dante to Academia", "Dante to A", "D to Academia"],
  "responses": ["To get from the Dante (D) building to the Academia (A) building you have to exit the building and go right until you get to the main path, then go right again and walk straight until you cross the street and go straight over the walking path (so not on the street). You pass S building first then M building and then you reach A building. The entrance is on the right side! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_Cube",
  "patterns": ["D to Cube", "Dante to Cube"],
  "responses": ["To get from the Dante (D) building to the Cube building you have to exit the building and go right until you get to the main path, go left for about 20 meters, then take a right turn and keep walking on that path until you have passed all the university buildings on your right side and take a left turn. After a couple of meters you have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_K",
  "patterns": ["D to K", "Dante to Koopmans", "Dante to K", "D to Koopmans"],
  "responses": ["To get from the Dante (D) building to the Koopmans (K) building you have to exit the building and go right until you get to the main path, then go left and walk straight until you pass under a bridge (Uni Library), then go left walk straight for about 50 meters. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_C",
  "patterns": ["D to C", "Dante to Cobbenhagen", "Dante to C", "D to Cobbenhagen"],
  "responses": ["To get from the Dante (D) building to the Cobbenhagen (C) building you have to exit the building and go right until you get to the main path, then go left and walk straight until you pass under a bridge (Uni Library), then go left for about 50 meters and into building K and go straight trough the hallway with an incline.. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_Library",
  "patterns": ["D to Library", "Dante to Library", "D to L", "Dante to L", "Dante to UB", "Dante to Universiteits Bibliotheek", "Dante to University Library", "Dante to UL", "D to UL"],
  "responses": ["To get from the Dante (D) building to the Library, you need to exit the building and go right until you get to the main path, then go left and walk straight until you pass under a bridge, this bridge is the way to the library, to get on the bridge go left after you passed it and you should reach the stairs. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_D",
+{"tag": "give_direction_from_D_to_T",
  "patterns": ["D to T", "Dante to Tias", "Dante to T", "D to Tias"],
  "responses": ["To get from the Dante (D) building to the Tias (T) building you have to exit the building and go right until you get to the main path and go left for about 20 meters, then take a right turn. Walk straight on this path, the first building on your right is the T building. You have reached your destination! Was this helpful?"],
  "context": [""]
@@ -96,32 +96,32 @@
 
 
 
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_A",
  "patterns": ["C to A", "Cobbenhagen to Academia", "Cobbenhagen to A", "C to Academia"],
  "responses": ["The easiest route from Cobbenhagen (C) building to anywhere is if you exit via the Koopmans (K) building and then type 'K to __' again. If you entered C building via de backside (not via K) you have to go from that entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
 },
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_K",
  "patterns": ["C to K", "Cobbenhagen to Koopmans", "Cobbenhagen to K", "C to Koopmans"],
  "responses": ["If you entered C building via de backside (not via the K entrance) you have to go from that back entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
 },
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_Tias",
  "patterns": ["C to T", "Cobbenhagen to Tias", "Cobbenhagen to T", "C to Tias"],
  "responses": ["The easiest route from Cobbenhagen (C) building to anywhere is if you exit via the Koopmans (K) building and then type 'K to __' again. If you entered C building via de backside (not via K) you have to go from that entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
 },
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_D",
  "patterns": ["C to D", "Cobbenhagen to Dante", "Cobbenhagen to D", "C to Dante"],
  "responses": ["The easiest route from Cobbenhagen (C) building to anywhere is if you exit via the Koopmans (K) building and then type 'K to __' again. If you entered C building via de backside (not via K) you have to go from that entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
 },
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_Cube",
  "patterns": ["C to Cube", "Cobbenhagen to Cube"],
  "responses": ["The easiest route from Cobbenhagen (C) building to anywhere is if you exit via the Koopmans (K) building and then type 'K to __' again. If you entered C building via de backside (not via K) you have to go from that entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
 },
-{"tag": "give_direction_from_C",
+{"tag": "give_direction_from_C_to_Library",
  "patterns": ["C to Library", "Cobbenhagen to Library", "Cobbenhagen to L", "C to L", "C to UB", "Cobbenhagen to Universiteits Bibliotheek", "C to UL", "Cobbenhagen to University Library", "C to University Library", "Cobbenhagen to UL"],
  "responses": ["The easiest route from Cobbenhagen (C) building to anywhere is if you exit via the Koopmans (K) building and then type 'K to __' again. If you entered C building via de backside (not via K) you have to go from that entrance and then first-left -> right -> first-left -> first-right."],
  "context": [""]
@@ -131,32 +131,32 @@
 
 
 
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_A",
  "patterns": ["K to A", "Koopmans to Academia", "Koopmans to A", "K to Academia"],
  "responses": ["To get from the Koopmans (K) building to the Academia (A) building you need to go straight and turn right to go under the library bridge. Then go straight all the way across campus (so cross the street as well) and stay on the sidewalk. You should pass building S and M on your right and te next building is the A building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_Cube",
  "patterns": ["K to Cube", "Koopmans to Cube"],
  "responses": ["To get from the Koopmans (K) building to the Cube building you need to go straight ahead and pass the W building on your left until you reach a gravel path that goes diagonally through a grassy field. Take this path to the end and take a wide left turn and go straight ahead with bike stallings on your right. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_T",
  "patterns": ["K to T", "Koopmans to Tias", "Koopmans to T", "K to Tias"],
  "responses": ["To get from the Koopmans (K) building to the Tias (T) building you need to go straight ahead and pass the W building on your left until you reach a gravel path that goes diagonally through a grassy field. Take this path until the end and then take a small right turn and go straight. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_Library",
  "patterns": ["K to Library", "Koopmans to Library", "Koopmans to L", "K to L", "K to UB", "Koopmans to UB", "K to UL", "Koopmans to University Library", "Koopmans to Universiteits Bibliotheek"],
  "responses": ["To get from the Koopmans (K) building to the Library you go straight ahead for about 50 meters until you see the bridge and the stairs on your right side. Take these stairs to the Library. You have reached your destination! Was this helpful? "],
  "context": [""]
 },
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_C",
  "patterns": ["K to C", "Koopmans to Cobbenhagen", "Koopmans to C", "K to Cobbenhagen"],
  "responses": ["To get from the Koopmans (K) building to the Cobbenhagen (C) building you simply go through the long halway that connects K and C. If you enter C via K you go directly straight for about 10 meters and enter that hallway. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_K",
+{"tag": "give_direction_from_K_to_D",
  "patterns": ["K to D", "Koopmans to Dante", "Koopmans to D", "K to Dante"],
  "responses": ["To get from the Koopmans (K) building to the Dante (D) building go straight ahead for about 50 meters, then turn right to pass under the bridge (from the library). Go straight ahead and the first close building on your right side is D building. You have reached your destination! Was this helpful?"],
  "context": [""]
@@ -167,32 +167,32 @@
 
 
 
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_T",
  "patterns": ["Cube to Tias", "Cube to Tias"],
  "responses": ["To get from the Cube building to the Tias (T) building you only need to go right and it should be on your left side. It's as easy as that! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_Library",
  "patterns": ["Cube to Library", "Cube to L", "Cube to University Library", "Cube to UL", "Cube to UB", "Cube to Universiteits Bibliotheek"],
  "responses": ["To get from the Cube building to the Library you need to go right and then go straight for a long time (you pass building T on your right) until you reach the main path. Then take a left turn and go under de bridge. This bridge leads to the library and the stairs start on your left. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_K",
  "patterns": ["Cube to K", "Cube to Koopmans"],
  "responses": ["To get from the Cube building to the Koopmans (K) building you have to go directly right when you exit cube and walk past the bike stallings. Take the first right, then left and walk all the way straight until you reach K building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_C",
  "patterns": ["Cube to C", "Cube to Cobbenhagen"],
  "responses": ["To get from the Cube building to the Cobbenhagen (C) building you have to go directly right when you exit cube and walk past the bike stallings. Take the first right, then left and walk all the way straight until you reach K building. Go inside K building and walk straight ahead for about 10 meters into the lang hallway. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_D",
  "patterns": ["Cube to D", "Cube to Dante"],
  "responses": ["To get from the Cube building to the Dante (D) building you need to go right and walk straight for about 80 meters (you pass the T building) until you reach the main path. Ahead of you a little to the left is the entrance to the D building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Cube",
+{"tag": "give_direction_from_Cube_to_A",
  "patterns": ["Cube to A", "Cube to Academia"],
  "responses": ["To get from the Cube building to the Academia (A) building you need to go right and walk straight for about 80 meters (you pass the T building) until you reach the main path. From there, go left and walk all the way straight via the sidewalk to A building. It is on your right side and you pass the S and M buildings first. You have reached your destination! Was this helpful?"],
  "context": [""]
@@ -201,32 +201,32 @@
 
 
 
-{"tag": "give_direction_from_T",
- "patterns": ["T to Cube", "Tias toCube"],
+{"tag": "give_direction_from_T_to_Cube",
+ "patterns": ["T to Cube", "Tias to Cube"],
  "responses": ["To get from the Tias (T) building to the Cube building simply go right and the cube building will be on your left. it's as easy as that! Was this helpfull?"],
  "context": [""]
 },
-{"tag": "give_direction_from_T",
+{"tag": "give_direction_from_T_to_Library",
  "patterns": ["T to Library", "Tias to Library", "Tias to L", "T to L", "T to UB", "Tias to UB", "T to UL", "Tias to University Library", "Tias to Universiteits Bibliotheek"],
  "responses": ["To get from the Tias (T) building to the Library go left all the way to the main path, then go right and pass under the bridge. This bridge leads to the Library, the start of this bridge is to your left. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_T",
+{"tag": "give_direction_from_T_to_K",
  "patterns": ["T to K", "Tias to Koopmans", "T to Koopmans", "Tias to K"],
  "responses": ["To get from the Tias (T) building to the Koopmans (K) building you need to go left all the way to the main path, then go right and pass under the bridge. Go left for about 50 meters and you are at K building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_T",
+{"tag": "give_direction_from_T_to_C",
  "patterns": ["T to ", "Tias to", "T to", "Tias to"],
  "responses": ["To get from the Tias (T) building to the Cobbenhagen (C) building you need to go left all the way to the main path, then go right and pass under the bridge. Go left for about 50 meters and you are at K building, then enter the K building and go forward for about 10 meters and go through the long hallway. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_T",
+{"tag": "give_direction_from_T_to_D",
  "patterns": ["T to D", "Tias to Dante", "T to Dante", "Tias to D"],
  "responses": ["To get from the Tias (T) building to the Dante (D) building go left all the way to the main path and the D building is ahead of you slightly to the left. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_T",
+{"tag": "give_direction_from_T_to_A",
  "patterns": ["T to A", "Tias to Academia", "T to Academia", "Tias to A"],
  "responses": ["To get from the Tias (T) building to the Academia building go left all the way to the main path, then ge left. Walk straight and cross the road, then keep going straight on the sidewalk. The A building is on the right side after you pass both the S and the M building. You have reached your destination! Was this helpful?"],
  "context": [""]
@@ -235,32 +235,32 @@
 
 
 
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_K",
  "patterns": ["Library to K", "L to K", "UL to K", "UB to K", "University Library to K", "Universiteits Bibliotheek to K", "Library to Koopmans", "L to Koopmans", "UL to Koopmans", "UB to Koopmans", "University Library to Koopmans", "Universiteits Bibliotheek to Koopmans"],
  "responses": ["To get from the Library to the Koopmans (K) building, after you get off the stairs, go left for about 40 meters and you are at the K building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_C",
  "patterns": ["Library to C", "L to C", "UL to C", "UB to C", "University Library to C", "Universiteits Bibliotheek to C", "Library to Cobbenhagen ", "L to Cobbenhagen", "UL to Cobbenhagen", "UB to Cobbenhagen", "University Library to Cobbenhagen", "Universiteits Bibliotheek to Cobbenhagen"],
  "responses": ["To get from the Library to the Cobbenhagen (C) building, after you get off the stairs, go left for about 40 meters and you are at the K building. Go inside and then straight forward for about 10 meters and go through the long hallway. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_T",
  "patterns": ["Library to T", "L to T", "UL to T", "UB to T", "University Library to T", "Universiteits Bibliotheek to T", "Library to Tias", "L to Tias", "UL to Tias", "UB to Tias", "University Library to Tias", "Universiteits Bibliotheek to Tias"],
  "responses": ["To get from the Library to the Tias (T) building, after you get off the stairs, go right then immediately right again. The library is now on your left side, once you're past it go left. Walk this path for about 50 meters, the first building to the right is the T building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_D",
  "patterns": ["Library to D", "L to D", "UL to D", "UB to D", "University Library to D", "Universiteits Bibliotheek to D", "Library to Dante", "L to Dante", "UL to Dante", "UB to Dante", "University Library to Dante", "Universiteits Bibliotheek to Dante"],
  "responses": ["To get from the Library to the Dante (D) building, after you get off the stairs, go right then immediately right again. Go straight for about 40 meters and the first building that is close yo your right is the Dante building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_A",
  "patterns": ["Library to A", "L to A", "UL to A", "UB to A", "University Library to A", "Universiteits Bibliotheek to A", "Library to Academia", "L to Academia", "UL to Academia", "UB to Academia", "University Library to Academia", "Universiteits Bibliotheek to Academia"],
  "responses": ["To get from the Library to the Academia (A) building, after you get off the stairs, go right then immediately right again. Go straight until you reach the road and cross it. Keep walking straight on the sidewalk and the A building is on your right after you pass both the S and M building. You have reached your destination! Was this helpful?"],
  "context": [""]
 },
-{"tag": "give_direction_from_Library",
+{"tag": "give_direction_from_Library_to_Cube",
  "patterns": ["Library to cube", "L to cube", "UL to cube", "UB to cube", "University Library to cube", "Universiteits Bibliotheek to cube"],
  "responses": ["To get from the Library to the Cube building, after you get off the stairs, go right then immediately right again. The library is now on your left side, once you're past it go left. Walk this path for about 100 meters, and the Cube building is on your left. You have reached your destination! Was this helpful?"],
  "context": [""]
